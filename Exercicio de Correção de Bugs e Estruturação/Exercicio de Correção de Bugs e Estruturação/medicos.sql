@@ -1,0 +1,8 @@
+CREATE TABLE medicos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(120) NOT NULL,
+    crm VARCHAR(20) NOT NULL UNIQUE,
+    especialidade VARCHAR(80) NOT NULL
+);
+
+
